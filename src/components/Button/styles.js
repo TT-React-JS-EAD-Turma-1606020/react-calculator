@@ -14,3 +14,9 @@ export const StyledButton = styled.button`
   margin-left: ${({ mlAuto }) => mlAuto && 'auto'};
   /* margin-left: auto; */
 `
+
+// export const StyledButtonDois = styled(StyledButton)`
+//   width: 5rem;
+//   height: 5rem;
+//   background-color: purple;
+// `;

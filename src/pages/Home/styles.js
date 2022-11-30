@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { darkGray } from '../../constants/colors'
+import { darkGray, lightGray } from '../../constants/colors'
 
 export const Body = styled.section`
   width: 100%;
@@ -27,7 +27,7 @@ export const NumbersContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: .5rem;
-  margin-top: 2rem;
+  margin-top: .5rem;
 `
 
 export const Row = styled.div`
@@ -35,5 +35,13 @@ export const Row = styled.div`
   gap: .5rem;
   width: 100%;
   justify-content: space-between;
+`
 
+export const ResultContainer = styled.div`
+  padding: 1rem .5rem;
+  border-radius: 8px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  background-color: ${lightGray};
 `
